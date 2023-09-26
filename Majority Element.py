@@ -17,5 +17,6 @@ def majorityElement( nums) -> int:
         else:
             c+=1
         res=nums[i-1]
+        
         # print(c)
     return res
