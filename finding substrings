@@ -1,0 +1,11 @@
+s=input()
+ss=""
+sslist=[]
+for i in range(len(s)):
+    for j in range(i,len(s)):
+        ss+=s[j]
+        if len(ss)>1 and ss==ss[::-1]:
+            print(ss)
+        sslist.append(ss)
+    ss=""
+print(sslist)
